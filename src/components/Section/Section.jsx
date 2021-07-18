@@ -7,8 +7,6 @@ const Section = ({ title, children }) => {
       {title && (
         <Title>
           {title}
-          {title === "Please leave feedback"}
-          {title === "Statistics"}
         </Title>
       )}
 
